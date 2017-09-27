@@ -1,4 +1,4 @@
 #pylint disable=c
 
 print 'hi'
-print 'something else'
+print 'something else '
