@@ -2,4 +2,3 @@
 
 print 'hi'
 print 'something else'
-x = 10
