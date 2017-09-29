@@ -183,14 +183,12 @@ def main():
         # This call draws the mouth.
         ps2_canvas.create_arc(
             165, 105, 350, 390, start=180, extent=180, fill='VioletRed4')
-<<<<<<< HEAD
         #calls eyes
         draw_excited_eyes(ps2_canvas)
 
     elif user_input == 'happy':
         #calls sun rays
         draw_sun_rays(ps2_canvas)
-=======
         # ps2_canvas.create_arc(
         #     230, 400, 380, 290, start=30, extent=180, fill='PaleVioletRed1')
         draw_excited_eyes(ps2_canvas)
@@ -216,7 +214,6 @@ def main():
         ps2_canvas.create_oval(320, 240, 350, 300, fill='cyan')
         #create eyes
         draw_sad_eyes(ps2_canvas)
-<<<<<<< HEAD
         #creates body
         draw_sad_body(ps2_canvas)
 
@@ -244,7 +241,6 @@ def main():
         #calls brows
         draw_angry_brows(ps2_canvas)
         #creates mouth
-=======
 
     elif user_input == 'surprised':
         ps2_canvas.create_oval(100, 100, 400, 400, fill='gold')
@@ -256,7 +252,6 @@ def main():
         ps2_canvas.create_oval(100, 100, 400, 400, fill='red4')
         draw_angry_eyes(ps2_canvas)
         draw_angry_brows(ps2_canvas)
->>>>>>> 4094bdc6188adc4686edf4ee6233e763df8a0c7e
         ps2_canvas.create_arc(
             185, 285, 320, 395, start=0, extent=180, fill='black')
 
