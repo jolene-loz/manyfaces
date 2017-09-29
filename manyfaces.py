@@ -196,7 +196,6 @@ def main():
         draw_excited_eyes(ps2_canvas)
 
     elif user_input == 'happy':
->>>>>>> 4094bdc6188adc4686edf4ee6233e763df8a0c7e
         ps2_canvas.create_oval(100, 100, 400, 400, fill='DarkOrange1')
         #create smile
         ps2_canvas.create_arc(
