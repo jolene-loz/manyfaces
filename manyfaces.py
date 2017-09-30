@@ -8,6 +8,7 @@ import Tkinter
 # Please put all your function definitions here (if you have any).
 # need help with defining functions
 #FINAL updated manyfaces
+#using late day because my computer messed up my entire program by calling functions way too many times
 
 
 def draw_excited_eyes(canvas):
@@ -187,13 +188,7 @@ def main():
         draw_excited_eyes(ps2_canvas)
 
     elif user_input == 'happy':
-        #calls sun rays
         draw_sun_rays(ps2_canvas)
-        # ps2_canvas.create_arc(
-        #     230, 400, 380, 290, start=30, extent=180, fill='PaleVioletRed1')
-        draw_excited_eyes(ps2_canvas)
-
-    elif user_input == 'happy':
         ps2_canvas.create_oval(100, 100, 400, 400, fill='DarkOrange1')
         #create smile
         ps2_canvas.create_arc(
@@ -241,17 +236,6 @@ def main():
         #calls brows
         draw_angry_brows(ps2_canvas)
         #creates mouth
-
-    elif user_input == 'surprised':
-        ps2_canvas.create_oval(100, 100, 400, 400, fill='gold')
-        draw_surprised_eyes(ps2_canvas)
-        draw_surprised_brows(ps2_canvas)
-        ps2_canvas.create_oval(200, 300, 300, 330, fill='black')
-
-    else:
-        ps2_canvas.create_oval(100, 100, 400, 400, fill='red4')
-        draw_angry_eyes(ps2_canvas)
-        draw_angry_brows(ps2_canvas)
         ps2_canvas.create_arc(
             185, 285, 320, 395, start=0, extent=180, fill='black')
 
