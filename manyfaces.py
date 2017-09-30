@@ -8,7 +8,7 @@ import Tkinter
 # Please put all your function definitions here (if you have any).
 # need help with defining functions
 #FINAL updated manyfaces
-#using late day because my computer messed up my entire program by calling functions way too many times
+#using late day because my computer messed up the main by calling functions way too many times
 
 
 def draw_excited_eyes(canvas):
